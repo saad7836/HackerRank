@@ -1,0 +1,16 @@
+interface EvenOdd {
+	void check(int a);
+}
+
+public class LambdaExample {
+	public static void main(String[] args) {
+		
+		Even even = (int a) -> {
+			if(a%2==0){
+				System.out.println("Number "+a+" is even.");
+			}
+		};
+		
+		evenOdd.check(8);
+	}
+}
